@@ -8,6 +8,6 @@ from sklearn.ensemble import RandomForestRegressor
 
 st.title('CO2 Emission')
 
-st.sidebar.header('User Input Parameter')
+st.header('User Input Parameter')
 
 
