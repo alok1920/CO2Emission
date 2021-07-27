@@ -7,12 +7,13 @@ from math import sqrt
 from statsmodels.tsa.arima_model import ARIMA
 import plotly.figure_factory as ff
 import plotly.graph_objects as go
+import matplotlib.pyplot as plt
 
 
 st.title('CO2 Emission')
 
 st.header('User Input Parameter')
-CO2 = st.slider('Till waht year you like to see CO2 emission', 2015, 2065)
+CO2 = st.slider('Select Year', 2015, 2065)
 number = CO2 - 2014
 #st.write(number)
 
